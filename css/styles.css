@@ -1,15 +1,9 @@
-h2.intro{
+.intro {
   color: yellowgreen;
   font-style: bold;
   width: 30%;
 }
 
-p.intro{
-  color: yellowgreen;
-  font-style: normal;
-  width: 30%;
-}
-
-img.intro{
+.intro img{
   border-radius: 50%;
 }
