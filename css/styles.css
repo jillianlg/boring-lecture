@@ -1,9 +1,25 @@
-.intro {
+#intro {
   color: yellowgreen;
   font-style: bold;
   width: 30%;
+  text-align: center;
 }
 
-.intro img{
+#intro img{
   border-radius: 50%;
+  align-items: center;
+}
+
+.p {
+  color: black;
+}
+
+.highlight-show {
+  color: black;
+  background-color: yellow;
+}
+
+.highlight-hide {
+  color: black;
+  background-color: white
 }
