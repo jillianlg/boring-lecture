@@ -1,17 +1,52 @@
+/* .intro {
+  color: yellowgreen;
+  font-style: bold;
+  width: 30%;
+}
+
+.intro img{
+  border-radius: 50%;
+} */
+
 #intro {
   color: yellowgreen;
   font-style: bold;
   width: 30%;
-  text-align: center;
+  float: center;
 }
 
 #intro img{
   border-radius: 50%;
-  align-items: center;
+  float: center;
 }
 
 .p {
   color: black;
+}
+.paragraph-border {
+  border: 1px black dotted;
+  padding: 5px;
+}
+
+.mode-button {
+  float: right;
+}
+
+#change-mode {
+  background-color: gray;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .paragraph-border {
+  border: 1px white dotted;
+}
+
+.dark-mode #change-mode {
+  background-color: white;
 }
 
 .highlight-show {
@@ -19,7 +54,11 @@
   background-color: yellow;
 }
 
-.highlight-hide {
+#highlight-hide {
   color: black;
-  background-color: white
+}
+
+#highlight-darkmode {
+  color: white;
+  background-color: black;
 }
